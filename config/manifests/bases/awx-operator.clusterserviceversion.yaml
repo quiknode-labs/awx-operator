@@ -619,6 +619,12 @@ spec:
         x-descriptors:
         - urn:alm:descriptor:com.tectonic.ui:advanced
         - urn:alm:descriptor:com.tectonic.ui:hidden
+      - description: Specify extra sidecars to add to the application pod
+        displayName: Extra Sidecars
+        path: extra_sidecars
+        x-descriptors:
+        - urn:alm:descriptor:com.tectonic.ui:advanced
+        - urn:alm:descriptor:com.tectonic.ui:hidden
       - displayName: Node Selector
         path: node_selector
         x-descriptors:
