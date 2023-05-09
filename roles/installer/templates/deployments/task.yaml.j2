@@ -129,6 +129,10 @@ spec:
               mountPath: "/var/lib/awx/projects"
 {% endif %}
       containers:
+# Optional sidecars to be added to the deployment:
+{% if extra_sidecars %}
+        {{ extra_sidecars | indent(width=8, first=True) }}
+{% endif %}
         - image: '{{ _redis_image }}'
           imagePullPolicy: '{{ image_pull_policy }}'
           name: redis
@@ -377,10 +381,6 @@ spec:
 {% if development_mode | bool %}
             - name: AWX_KUBE_DEVEL
               value: "1"
-{% endif %}
-# Optional sidecars to be added to the deployment:
-{% if extra_sidecars %}
-        {{ extra_sidecars | indent(width=8, first=True) }}
 {% endif %}
 {% if task_node_selector %}
       nodeSelector:
