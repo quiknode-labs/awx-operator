@@ -77,4 +77,5 @@ spec:
       serviceAccountName: controller-manager
       imagePullSecrets:
       - name: redhat-operators-pull-secret
+      - name: ghcr-io-secrets
       terminationGracePeriodSeconds: 10
