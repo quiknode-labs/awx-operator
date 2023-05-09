@@ -3,13 +3,13 @@ entries:
   awx-operator:
   - apiVersion: v2
     appVersion: 2.1.0
-    created: "2023-05-08T15:33:02.271601515-04:00"
+    created: "2023-05-09T06:50:47.847Z"
     description: A Helm chart for the AWX Operator
-    digest: 8b7aeb66df87241af34e312f51263dabe1531a68a9b7669c23cd4d0f9933dee2
+    digest: 36171137b0a017d5b982af2f28f8d08ea383ddb7747098ee85c9785a2ef4f5b6
     name: awx-operator
     type: application
     urls:
-    - https://github.com/ansible/awx-operator/releases/download/2.1.0/awx-operator-2.1.0.tgz
+    - https://github.com/quiknode-labs/awx-operator/releases/download/2.1.0-2-g2481cb5/awx-operator-2.1.0-2-g2481cb5.tgz
     version: 2.1.0
   - apiVersion: v2
     appVersion: 2.0.1
