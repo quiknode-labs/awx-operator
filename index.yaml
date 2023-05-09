@@ -3,13 +3,13 @@ entries:
   awx-operator:
   - apiVersion: v2
     appVersion: 2.1.0
-    created: "2023-05-09T09:18:04.685Z"
+    created: "2023-05-09T10:57:19.277Z"
     description: A Helm chart for the AWX Operator
-    digest: 51da930e08ef25d42fb24029f57ba79509798621f4185467ee1d7736dc14633f
+    digest: eec69c1c21bdae7eda750759c230c23adf25fdbe90658cacd1ffc203bc84d5bb
     name: awx-operator
     type: application
     urls:
-    - https://github.com/quiknode-labs/awx-operator/releases/download/2.1.0-4-gaef706d/awx-operator-2.1.0-4-gaef706d.tgz
+    - https://github.com/quiknode-labs/awx-operator/releases/download/2.1.0-5-g12307b9/awx-operator-2.1.0-5-g12307b9.tgz
     version: 2.1.0
   - apiVersion: v2
     appVersion: 2.0.1
